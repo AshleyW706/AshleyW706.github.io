@@ -93,6 +93,7 @@ oP {
 /* Style the header */
 .header {
   text-align: center;
+  width: 100%;
   padding: 10px 16px;
   background: #4CAF50;
   color: white;
@@ -285,12 +286,14 @@ p {
   }
 
 .footer {
-  padding: 20px;
+  width: 100%;
+  padding: 10px 16px;
   margin-top: 100px;
+  text-align: center;
   text-transform: uppercase;
   background-color: #4CAF50;
-  border-color: black;
-  border: 2px solid;
+  color: white;
+  z-index: 1;
   size: cover;
 }
 
