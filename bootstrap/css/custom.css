@@ -123,7 +123,7 @@ oP {
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 102px;
+  padding-top: 200px;
 }
 
 .collapsible {
@@ -245,6 +245,12 @@ p {
   letter-spacing: 3px;
 }
 
+.square {
+  border: 15px solid;
+  border-color: #730099;
+  align-content: center;
+}
+
 .col-sm-10 {
   border-color: black;
   border: 2px solid;
@@ -252,9 +258,9 @@ p {
 
 .col-sm-11 {
   border-color: black;
-  border: 2px solid;
-  background-color: #730099;
-  opacity: .85;
+  border: 10px solid;
+  border-color: #730099;
+  padding: 10px;
 }
 
 .col-sm-5 {
@@ -267,6 +273,7 @@ p {
 
 .col-sm-4 {
   text-align: center;
+  align-self: center;
 }
 
 .col-sm-2 {
@@ -297,15 +304,14 @@ p {
 }
 
 .pic {
-  background-image: url("../../zealand.jpg");
-  opacity: 0.75;
+  background-image: url("../../water.jpg");
   filter: alpha(opacity=75);
-  height: 450px;
+  height: 435px;
+  border: 10px solid;
+  border-color: #4CAF50;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-color: black;
-  border: 3px solid;
 }
 
 .flip-card {
