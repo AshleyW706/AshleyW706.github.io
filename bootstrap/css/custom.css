@@ -297,7 +297,7 @@ p {
 }
 
 .pic {
-  background-image: url("../../city.jpg");
+  background-image: url("../../marvel.jpg");
   opacity: 0.75;
   filter: alpha(opacity=75);
   height: 450px;
