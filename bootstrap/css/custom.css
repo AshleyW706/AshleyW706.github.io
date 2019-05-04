@@ -297,7 +297,7 @@ p {
 }
 
 .pic {
-  background-image: url("../../new-zealand.jpg");
+  background-image: url("../../zealand.jpg");
   opacity: 0.75;
   filter: alpha(opacity=75);
   height: 450px;
