@@ -94,7 +94,8 @@ oP {
 .header {
   text-align: center;
   width: 100%;
-  padding: 10px 16px;
+  padding: 16px 16px;
+  margin; auto;
   background: #4CAF50;
   color: white;
   z-index: 1;
