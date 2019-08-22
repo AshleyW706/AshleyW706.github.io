@@ -23,7 +23,7 @@ h3 {
 }
 
 h4 {
-  border: 3px solid white;
+  text-decoration: underline;
   padding-bottom: 5px;
   padding-top: 5px;
   text-align: center;
@@ -93,7 +93,7 @@ oP {
 /* Style the header */
 .header {
   text-align: center;
-  width: 100%;
+  width: auto;
   padding: 16px 16px;
   margin; auto;
   background: #4CAF50;
@@ -129,7 +129,7 @@ oP {
 }
 
 .collapsible {
-  background-color: #730099;
+  background-color:#4CAF50;
   opacity: .85;
   color: white;
   cursor: pointer;
@@ -148,7 +148,7 @@ oP {
   text-align: center;
   vertical-align: center;
   border-radius: 50%;
-  background: #730099;
+  background: black;
   color: white;
   font: 12px "Futura", sans-serif;
   opacity: .85;
@@ -302,7 +302,7 @@ p {
   background-image: url("../../trees.jpg");
   height: 750px;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -324,7 +324,7 @@ p {
   margin-left: inherit;
   margin-right: inherit;
   width: 500px;
-  height: 500px;
+  height: 540px;
   perspective: 1000px;
 }
 
@@ -356,7 +356,7 @@ p {
 }
 
 .flip-card-back {
-  background-color: #730099;
+  background-color: #4CAF50;
   opacity: .85;
   color: white;
   text-align: center;
@@ -373,6 +373,7 @@ p {
 body {margin:0;}
 
 .icon-bar {
+  float: right;
   width: 100%%;
   background-color: transparent;
   overflow: auto;
@@ -404,20 +405,22 @@ body {
 
 
 .row {
-  margin: 16px;
+  margin: 4px;
 }
 
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 4px;
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
+  padding: 4px;
   float: left;
   width: 25%;
-  background-color: #730099 ;
+  height: auto;
+  background-color: black;
 }
 
 /* Clear floats after rows */
@@ -430,7 +433,7 @@ body {
 /* Content */
 .docs {
   background-color: #4CAF50;
-  padding: 10px;
+  padding: 4px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
